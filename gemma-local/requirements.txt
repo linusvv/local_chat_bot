@@ -1,0 +1,11 @@
+requests>=2.31.0  # For Ollama API and downloads
+python-dotenv>=1.0.0  # For environment variables
+vosk>=0.3.45  # For speech-to-text
+pyaudio  # For audio recording
+sounddevice  # For audio playback
+soundfile  # For audio file handling
+numpy  # Required by audio processing
+torch  # Required by faster-whisper
+edge-tts
+tqdm>=4.66.0  # For download progress bar
+
